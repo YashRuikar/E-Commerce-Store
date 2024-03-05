@@ -1,4 +1,4 @@
-# Welcome to React Ecommerce Store Website Series
+# Welcome to React Ecommerce Store Website
 
 ## Follow the 3 Steps and you are good to go. 
 
