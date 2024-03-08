@@ -37,6 +37,7 @@ const Contact = () => {
     <Wrapper>
       <h2 className="common-heading">Contact Page</h2>
       <iframe
+        title="Yash Store Location"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15273.266539109267!2d74.5594633508169!3d16.86022424303485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1186a8739d50b%3A0x14b4771ad94e71ad!2sSFC%20MEGAA%20MALL!5e0!3m2!1sen!2sin!4v1709894604691!5m2!1sen!2sin"
         width="100%"
         height="300"
@@ -51,8 +52,8 @@ const Contact = () => {
           <form action="https://formspree.io/f/xayrbobl" method="POST" className="contact-inputs">
             <input
               type="text"
-              placeholder="username"
-              name="uesrname"
+              placeholder="Username"
+              name="username"
               required
               autoComplete="off"
             />
@@ -60,13 +61,13 @@ const Contact = () => {
             <input
               type="email"
               placeholder="Email"
-              name="Email"
+              name="email"
               required
               autoComplete="off"
             />
 
             <textarea
-              name="Message"
+              name="message"
               cols="30"
               rows="10"
               required
@@ -74,7 +75,7 @@ const Contact = () => {
               placeholder="Enter your message"
             ></textarea>
 
-            <input type="submit" value="send" />
+            <input type="submit" value="Send" />
           </form>
         </div>
       </div>
