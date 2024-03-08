@@ -1,15 +1,13 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import HeroSection from "./components/HeroSection";
 
 const Home = () => {
-  return (
-    <Wrapper className='test'>Home</Wrapper>
-  )
-}
 
-const Wrapper = styled.section`
-  height: 100vh;
-  background-color: ${({theme}) => theme.colors.bg};
-`
+  const data = {
+    name: "Yash Store"
+  }
 
-export default Home
+  return <HeroSection myData={data} />;
+};
+
+export default Home;
