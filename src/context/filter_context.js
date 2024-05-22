@@ -8,7 +8,7 @@ const initialState = {
   filter_products: [],
   all_products: [],
   grid_view: true,
-  soring_value: "lowest",
+  sorting_value: "lowest",
 };
 
 export const FilterContextProvider = ({ children }) => {
