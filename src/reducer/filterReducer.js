@@ -22,10 +22,11 @@ const filterReducer = (state, action) => {
     case "GET_SORT_VALUE":
       let userSortValue = document.getElementById("sort");
       let sort_value = userSortValue.options[userSortValue.selectedIndex].value;
+      // console.log(sort_value)
 
       return {
         ...state,
-        soring_value: sort_value,
+        sorting_value: sort_value,
       };
 
     case "SORTING_PRODUCTS":
